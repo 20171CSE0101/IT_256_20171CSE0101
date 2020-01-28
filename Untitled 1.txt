@@ -1,4 +1,4 @@
 ﻿Hello world
 My name is Ayesha syed
 id 220713487
-section 6se04
+section 6cse04
