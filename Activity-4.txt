@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Activity4</title>
+	</head>
+	<body>
+		<h1 align="center">AYESHA SYED</h1>
+		<hr style="margin-left: 40px;margin-right: 40px;margin-bottom: 1px;border-top: 1px solid;">
+            	<hr style="height: 3px;margin-left: 40px;margin-right: 40px;background-color: black;margin-top: 1px;">
+		<p align="center">R.T.Nagar,Bangalore <span style="font-weight:999;" >&#183;</span> (+91)9902089877 <span style="font-weight:999;" >&#183;</span> ayesha31ash@gmail.com</p>
+		<div style="margin-left: 40px;margin-right:40px;">
+		<p><big><b>Career Objective</b></big><p>
+		<p>Looking forward to work in a challenging environment, where I can learn new things and contribute positively for the growth, development and prosperity of the organisation by comitted and dedicated work culture, which shall offer bright future.</p>
+		<p><big><b>Project History</b></big></p>	
+		<p style="font-size:16px;height:10px;"><b>Online Web Search Application, </b>07/2018 to 10/2018</p>
+            	<p style="height:8px;"><b>C#.NET</b> - Presidency University, Bangalore</p>
+		<ul type="disc">
+			<li>Creating three modules for public pages,admin and items search modules.</li>
+			<li>Admin can allow to manage cities and manage master data and also provide user accounts.</li>
+			<li>Search can search for search results and filter it.</li>
+			<li>public pages can provide information to a visitor about the website and contact address and numbers.</li>
+		</ul>
+		<div style="margin-top:30px;">
+		<p style="font-size:16px;height:10px;"><b>TODO List, </b>23/06/2018 to 23/09/2018</p>
+            	<p style="height:8px;"><b>JavaScript</b> - Presidency University, Bangalore</p>
+		<ul type="disc">
+			<li>view all projects.</li>
+			<li>view all todos in each project and expand a single todo to see/edit it's details and also delete.</li>
+                        <li>use local storage to save user's projects and todos between sessions.</li>
+		</ul>
+		</div>
+		<div style="margin-top:30px;">
+		<p style="font-size:16px;height:10px;"><b>Junk file organizer, </b>13/10/2019 to 13/01/2020</p>
+            	<p style="height:8px;"><b>Python</b> - Presidency University, Bangalore</p>
+		<p><ul type="disc">
+			<li>When desktop is full of files,it is a daunting task to sit and organize each file.</li>
+			<li>it will organize everything in appropriate folder in a single go and remove empty directories. .</li>
+			<li>This app helps us organize all files in desktop.</li>
+			
+		</ul></p>
+		</div>
+            	<p style="font-size:18px;height:1px;"><b>Skills</b></p>
+                <p><ul style="float:left;width:20%;" >
+                    	<li>Data structures in C</li>
+                    	<li>Core Java</li>
+                    	<li>Artificial Inteligence</li>
+               	</ul>
+                <ul style="padding:17px;">
+                    	<li>Theory of computations</li> 
+                    	<li>Analysis of Algorithm</li>
+                    	<li>Mysql</li>
+                </ul></p>
+		<p><big><b>Education</b></big></p>
+		<p>
+			<b>B.Tech in Computer Science from Presidency University</b>: 2017-2021<br />
+			<b>Intermediate from Chaitanya PU College</b>: 2015-2017
+		</p>
+	</body>
+</html>
