@@ -1,0 +1,65 @@
+<!--Design a Calculator to perform Addition,Subtraction,Division and Multiplication . Create two Textbox's for input, a button for each of the above operation.On click of the button the result should be displayed on screen. Negative number not allowed,zero not allowed for division and multiplication-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Assignment</title>
+<style>
+span{
+color:green;
+}
+</style>
+</head>
+<body>
+<h1>CALCULATOR</h1>
+<div>
+<label for="firstNumber">Enter the first number: <span>*</span></label>
+<input type="number" id="sno" pattern="[1-9]" required>
+<br>
+<br>
+<label for="secondNumber">Enter the second number: <span>*</span></label>
+<input type="number" id="fno" pattern="[1-9]" required>
+<br>
+<br>
+<button onclick="add();">+</button><span id="add"></span>
+<br>
+<br>
+<button onclick="sub();">-</button><span id="sub"></span>
+<br>
+<br>
+<button onclick="mul();">*</button><span id="mul"></span>
+<br>
+<br>
+<button onclick="div();">/</button><span id="div"></span>
+<script>
+function add(){
+var n1=Number(document.getElementById("fno").value);
+var n2=Number(document.getElementById("sno").value);
+document.getElementById("add").innerHTML=" The sum is: "+(n1+n2);
+}
+function sub(){
+var n1=Number(document.getElementById("fno").value);
+var n2=Number(document.getElementById("sno").value);
+document.getElementById("sub").innerHTML=" The difference is: "+(n1-n2);
+}
+function mul(){
+var n1=Number(document.getElementById("fno").value);
+var n2=Number(document.getElementById("sno").value);
+if(n1<=0||n2<=0)
+document.getElementById("mul").innerHTML=" Number not allowed."
+else
+document.getElementById("mul").innerHTML=" The product is: "+(n1*n2);
+}
+function div(){
+var n1=Number(document.getElementById("fno").value);
+var n2=Number(document.getElementById("sno").value);
+if(n1<=0||n2<=0)
+document.getElementById("div").innerHTML=" Number not allowed."
+else
+document.getElementById("div").innerHTML=" The quotient is: "+(n1/n2);
+}
+</script>
+</div>
+</body>
+</html>
