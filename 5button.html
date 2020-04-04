@@ -1,0 +1,30 @@
+<!--write a javascript code to print your name 5 times on a button click-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Assignment</title>
+<style>
+span{
+color:red;
+}
+</style>
+</head>
+<body>
+<label for="Name">Enter your Name: <span>*</span></label>
+<input type="text" id="fname" required>
+<button onclick="function1()">SUBMIT</button>
+<p id="para"></p>
+<script>
+function function1(){
+var pname="";
+var name=document.getElementById("fname").value;
+for(let i=0;i<5;i++){
+pname+=name+"<br>";
+}
+document.getElementById("para").innerHTML=pname;
+}
+</script>
+</body>
+</html>
